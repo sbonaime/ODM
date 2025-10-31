@@ -1,6 +1,7 @@
 name: Publish Docker and WSL Images
 
 on:
+  workflow_dispatch:
   push:
     branches:
     - master
